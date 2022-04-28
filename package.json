@@ -2,11 +2,17 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "postinstall": "lerna bootstrap",
-    "start": "lerna run start",
-    "release": "lerna publish --conventional-commits --message \"chore(npm): publish\""
+    "start": "nx run-many --target=start --all",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+    "@changesets/cli": "2.22.0",
+    "nx": "14.0.3"
+  },
+  "workspaces": [
+    "packages/foo",
+    "packages/bar"
+  ]
 }
