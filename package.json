@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "start": "lerna run start",
+    "release": "lerna publish --conventional-commits --message \"chore(npm): publish\""
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@acme/foo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jack Hsu",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@acme/bar": "1.0.0"
+  }
+}
