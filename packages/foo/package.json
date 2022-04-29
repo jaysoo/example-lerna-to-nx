@@ -1,6 +1,6 @@
 {
   "name": "@acme/foo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Jack Hsu",
   "license": "ISC",
@@ -8,6 +8,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@acme/bar": "1.0.0"
-  }
+    "@acme/bar": "^1.0.1"
+  },
+  "gitHead": "e887b844fda19c604fd8b8d48bfb0834c47d5898"
 }
